@@ -1,0 +1,47 @@
+{
+  "pricing": {
+    "chicken_dozen": {"min": 3.5, "max": 6.0, "default": 5.0},
+    "duck_dozen": {"min": 6.0, "max": 10.0, "default": 9.0},
+    "goose_each": {"min": 2.0, "max": 5.0, "default": 4.0},
+    "quail_pack": {"min": 4.0, "max": 7.0, "default": 6.5}
+  },
+  "storage": {
+    "unwashed": {
+      "room_temp_days": 14,
+      "fridge_days": 60
+    },
+    "washed": {
+      "fridge_days": 35
+    },
+    "best_practices": [
+      "Store eggs pointy side down",
+      "Do not wash until use",
+      "Use warm water if washing",
+      "Keep consistent temperature"
+    ]
+  },
+  "subscriptions": [
+    {
+      "name": "Weekly Dozen Plan",
+      "type": "replenishment",
+      "description": "1-3 dozen eggs weekly",
+      "discount": 0.1
+    },
+    {
+      "name": "Family Egg Box",
+      "type": "bundle",
+      "description": "Mixed eggs weekly",
+      "discount": 0.12
+    },
+    {
+      "name": "Wholesale Standing Order",
+      "type": "wholesale",
+      "description": "Bulk recurring supply",
+      "discount": 0.2
+    }
+  ],
+  "costs": {
+    "feed_per_lb": 0.75,
+    "avg_feed_per_dozen_cost": 2.0
+  }
+}
