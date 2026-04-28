@@ -14,6 +14,9 @@ https://github.com/archeabelief-hash/Renzies-Fairy-Eggs.git
 Project:
 Renzie’s Fairy Eggs — customer order page + protected mobile admin operations app for a local egg-selling business.
 
+Operating Mode:
+The assistant is expected to do the work directly whenever repository or connected-tool access allows it. Codex instructions are only needed when a task cannot be safely completed directly from the assistant side.
+
 Core Rules:
 1. Do not stop early.
 2. Do not ask permission unless there is a critical project-breaking ambiguity.
@@ -25,6 +28,8 @@ Core Rules:
 8. No console errors.
 9. Keep the app mobile-first.
 10. Preserve existing working features unless directly instructed to replace them.
+11. When changing app code, finish with a committed, testable state.
+12. Prefer direct implementation over instructions when repo write access exists.
 
 Tech Stack Rules:
 1. Plain HTML, CSS, and JavaScript unless specifically told otherwise.
